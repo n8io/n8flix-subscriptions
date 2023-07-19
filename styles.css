@@ -1,0 +1,33 @@
+a {
+  color: blueviolet !important;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+}
+
+.footnote {
+  font-size: 0.65rem;
+}
+
+.legal {
+  align-content: start;
+  background: lightgray;
+  border-radius: 0.25rem;
+  display: grid;
+  gap: 0.25rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  opacity: 0.5;
+}
+
+h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  margin-bottom: 0.125rem;
+}

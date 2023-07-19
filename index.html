@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>N8Flix - Pricing</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <!--
+      Need a visual blank slate?
+      Remove all code in `styles.css`!
+    -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="https://img.stripecdn.com/cdn-cgi/image/format=auto,height=120,dpr=2/https://d1wqzb5bdbcre6.cloudfront.net/4e2333d62ee5a2f99652beb80e7dc96f7cb1207e49aeeb5c1dff6521099ac64e/68747470733a2f2f66696c65732e7374726970652e636f6d2f6c696e6b732f4d44423859574e6a644638784d444e4e61556379646a526d64334a61576b644e66475a7358327870646d5666566c417764454e5756466c53546e644c575546454d303157576a46335756565130303342347061657174"
+      type="image/x-icon"
+    />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body style="font-family: Arial, Helvetica, sans-serif;">
+    <div class="center">
+      <h1>Welcome to N8Flix!</h1>
+
+      <p>
+        We offer access to your family memories that we have converted
+        from your old DVDs and VHS tapes.
+      </p>
+    </div>
+    <div>
+      <br />
+    <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+    <stripe-pricing-table
+      pricing-table-id="prctbl_1NSRBa2v4fwrZZGMNGLpkhgb"
+      publishable-key="pk_live_enRcfo6ILdqzsk0USxanmmhb"
+    />
+    </div>
+    <center>
+      <br />
+      <a
+        style="color: blueviolet; font-size: 90%;"
+        href="https://bit.ly/plex-pricing-feedback"
+        >Submit feedback</a
+      >
+    </center>
+    <div class="legal">  
+        <h5>Contact Information</h2>
+          <p class="footnote">
+          Email:
+          n𝟪@n𝟪io.com
+        </p>
+  
+        <h5>Legal and Export Restrictions</h2>
+          <p class="footnote">
+          There are no legal or export restrictions applicable to our services.
+        </p>
+        <h5>Consumer Data Privacy Policy</h2>
+          <p class="footnote">
+          We take the privacy of your data seriously. We do not track anything
+          about you or your web traffic beyond what is required by Stripe (our payment processor).
+        </p>
+        <h5>Security Policy</h2>
+        <p class="footnote">
+          We ensure the security of your payment card details through
+          industry-standard encryption and follow strict security protocols. Your
+          payment information is handled securely and will not be shared with
+          third parties.
+        </p>
+        
+          <p class="footnote">
+            All the following amounts are in USD
+          </p>
+    </div>
+    <style>
+      iframe {
+        display: none;
+      }
+    </style>
+  </body>
+</html>
