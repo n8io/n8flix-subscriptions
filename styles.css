@@ -31,3 +31,8 @@ p {
   margin: 0;
   margin-bottom: 0.125rem;
 }
+
+ .mumbo-jumbo {
+   font-size: 0.25rem;
+   opacity: 0.01;
+ }
