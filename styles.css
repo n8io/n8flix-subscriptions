@@ -36,3 +36,8 @@ p {
    font-size: 0.25rem;
    opacity: 0.01;
 }
+
+.link {
+  color: blueviolet;
+  font-size: 90%;
+}
